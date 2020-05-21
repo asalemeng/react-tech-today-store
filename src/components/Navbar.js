@@ -34,11 +34,12 @@ const NavWrapper = styled.nav`
   padding: 1rem 1.5rem;
   background: var(--mainGrey);
   border-bottom: 3px solid var(--primaryColor);
+  z-index: 1;
   .nav-center {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    max-width: 1170px;
+    max-width: 1800px;
     margin: 0 auto;
   }
   .nav-icon {
